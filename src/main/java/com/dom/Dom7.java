@@ -8,12 +8,14 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.util.HashSet;
+import java.util.Set;
 
-public class Dom4 {
+public class Dom7 {
 
     public static void main(String[] args) {
 
-        int livroCount = 0;
+        Set<String> authors = new HashSet<>();
 
         try {
 
@@ -24,24 +26,21 @@ public class Dom4 {
             document.getDocumentElement().normalize();
 
             NodeList bookList = document.getElementsByTagName("book");
-            System.out.println("Quantos livros a partir de 2010 possuem preço maior que 150? ");
+            System.out.println("Quais autores começam com a letra ‘A’? ");
             for(int i = 0; i<= bookList.getLength(); i++) {
                 Node bookNode = bookList.item(i);
                 if(bookNode != null) {
                     if(bookNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element bookElement = (Element) bookNode;
-                        String year = bookElement.getElementsByTagName("year").item(0).getTextContent();
-                        int yearInt = Integer.parseInt(year);
-                        String price = bookElement.getElementsByTagName("price").item(0).getTextContent();
-                        double priceDouble = Double.parseDouble(price);
-
-                        if(yearInt >= 2010 && priceDouble >= 150) {
-                            livroCount++;
+                        NodeList authorList = bookElement.getElementsByTagName("author");
+                        String author = authorList.item(0).getTextContent();
+                        if(author.startsWith("A")) {
+                            authors.add(author);
                         }
                     }
                 }
             }
-            System.out.println(livroCount);
+            System.out.println(authors);
         }
         catch (Exception e) {
             e.printStackTrace();

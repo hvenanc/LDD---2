@@ -9,7 +9,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 
-public class Dom4 {
+public class Dom5 {
 
     public static void main(String[] args) {
 
@@ -24,19 +24,25 @@ public class Dom4 {
             document.getDocumentElement().normalize();
 
             NodeList bookList = document.getElementsByTagName("book");
-            System.out.println("Quantos livros a partir de 2010 possuem preço maior que 150? ");
+            System.out.println("Quantos livros da categoria LP estão em inglês? ");
             for(int i = 0; i<= bookList.getLength(); i++) {
                 Node bookNode = bookList.item(i);
                 if(bookNode != null) {
                     if(bookNode.getNodeType() == Node.ELEMENT_NODE) {
                         Element bookElement = (Element) bookNode;
-                        String year = bookElement.getElementsByTagName("year").item(0).getTextContent();
-                        int yearInt = Integer.parseInt(year);
-                        String price = bookElement.getElementsByTagName("price").item(0).getTextContent();
-                        double priceDouble = Double.parseDouble(price);
-
-                        if(yearInt >= 2010 && priceDouble >= 150) {
-                            livroCount++;
+                        if(bookElement.getAttribute("category").equals("LP")) {
+                            NodeList titleList = bookElement.getElementsByTagName("title");
+                            for(int j = 0; j<= titleList.getLength(); j++) {
+                                Node titleNode = titleList.item(j);
+                                if(titleNode != null) {
+                                    if(titleNode.getNodeType() == Node.ELEMENT_NODE) {
+                                        Element titleElement = (Element) titleNode;
+                                        if(titleElement.getAttribute("lang").equals("en")) {
+                                            livroCount++;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -48,3 +54,4 @@ public class Dom4 {
         }
     }
 }
+
