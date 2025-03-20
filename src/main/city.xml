@@ -1,0 +1,602 @@
+<cities>
+    <city id="1" name="A Corua (La Corua)" country_id="87" />
+    <city id="2" name="Abha" country_id="82" />
+    <city id="3" name="Abu Dhabi" country_id="101" />
+    <city id="4" name="Acua" country_id="60" />
+    <city id="5" name="Adana" country_id="97" />
+    <city id="6" name="Addis Abeba" country_id="31" />
+    <city id="7" name="Aden" country_id="107" />
+    <city id="8" name="Adoni" country_id="44" />
+    <city id="9" name="Ahmadnagar" country_id="44" />
+    <city id="10" name="Akishima" country_id="50" />
+    <city id="11" name="Akron" country_id="103" />
+    <city id="12" name="al-Ayn" country_id="101" />
+    <city id="13" name="al-Hawiya" country_id="82" />
+    <city id="14" name="al-Manama" country_id="11" />
+    <city id="15" name="al-Qadarif" country_id="89" />
+    <city id="16" name="al-Qatif" country_id="82" />
+    <city id="17" name="Alessandria" country_id="49" />
+    <city id="18" name="Allappuzha (Alleppey)" country_id="44" />
+    <city id="19" name="Allende" country_id="60" />
+    <city id="20" name="Almirante Brown" country_id="6" />
+    <city id="21" name="Alvorada" country_id="15" />
+    <city id="22" name="Ambattur" country_id="44" />
+    <city id="23" name="Amersfoort" country_id="67" />
+    <city id="24" name="Amroha" country_id="44" />
+    <city id="25" name="Angra dos Reis" country_id="15" />
+    <city id="26" name="Anpolis" country_id="15" />
+    <city id="27" name="Antofagasta" country_id="22" />
+    <city id="28" name="Aparecida de Goinia" country_id="15" />
+    <city id="29" name="Apeldoorn" country_id="67" />
+    <city id="30" name="Araatuba" country_id="15" />
+    <city id="31" name="Arak" country_id="46" />
+    <city id="32" name="Arecibo" country_id="77" />
+    <city id="33" name="Arlington" country_id="103" />
+    <city id="34" name="Ashdod" country_id="48" />
+    <city id="35" name="Ashgabat" country_id="98" />
+    <city id="36" name="Ashqelon" country_id="48" />
+    <city id="37" name="Asuncin" country_id="73" />
+    <city id="38" name="Athenai" country_id="39" />
+    <city id="39" name="Atinsk" country_id="80" />
+    <city id="40" name="Atlixco" country_id="60" />
+    <city id="41" name="Augusta-Richmond County" country_id="103" />
+    <city id="42" name="Aurora" country_id="103" />
+    <city id="43" name="Avellaneda" country_id="6" />
+    <city id="44" name="Bag" country_id="15" />
+    <city id="45" name="Baha Blanca" country_id="6" />
+    <city id="46" name="Baicheng" country_id="23" />
+    <city id="47" name="Baiyin" country_id="23" />
+    <city id="48" name="Baku" country_id="10" />
+    <city id="49" name="Balaiha" country_id="80" />
+    <city id="50" name="Balikesir" country_id="97" />
+    <city id="51" name="Balurghat" country_id="44" />
+    <city id="52" name="Bamenda" country_id="19" />
+    <city id="53" name="Bandar Seri Begawan" country_id="16" />
+    <city id="54" name="Banjul" country_id="37" />
+    <city id="55" name="Barcelona" country_id="104" />
+    <city id="56" name="Basel" country_id="91" />
+    <city id="57" name="Bat Yam" country_id="48" />
+    <city id="58" name="Batman" country_id="97" />
+    <city id="59" name="Batna" country_id="2" />
+    <city id="60" name="Battambang" country_id="18" />
+    <city id="61" name="Baybay" country_id="75" />
+    <city id="62" name="Bayugan" country_id="75" />
+    <city id="63" name="Bchar" country_id="2" />
+    <city id="64" name="Beira" country_id="63" />
+    <city id="65" name="Bellevue" country_id="103" />
+    <city id="66" name="Belm" country_id="15" />
+    <city id="67" name="Benguela" country_id="4" />
+    <city id="68" name="Beni-Mellal" country_id="62" />
+    <city id="69" name="Benin City" country_id="69" />
+    <city id="70" name="Bergamo" country_id="49" />
+    <city id="71" name="Berhampore (Baharampur)" country_id="44" />
+    <city id="72" name="Bern" country_id="91" />
+    <city id="73" name="Bhavnagar" country_id="44" />
+    <city id="74" name="Bhilwara" country_id="44" />
+    <city id="75" name="Bhimavaram" country_id="44" />
+    <city id="76" name="Bhopal" country_id="44" />
+    <city id="77" name="Bhusawal" country_id="44" />
+    <city id="78" name="Bijapur" country_id="44" />
+    <city id="79" name="Bilbays" country_id="29" />
+    <city id="80" name="Binzhou" country_id="23" />
+    <city id="81" name="Birgunj" country_id="66" />
+    <city id="82" name="Bislig" country_id="75" />
+    <city id="83" name="Blumenau" country_id="15" />
+    <city id="84" name="Boa Vista" country_id="15" />
+    <city id="85" name="Boksburg" country_id="85" />
+    <city id="86" name="Botosani" country_id="78" />
+    <city id="87" name="Botshabelo" country_id="85" />
+    <city id="88" name="Bradford" country_id="102" />
+    <city id="89" name="Braslia" country_id="15" />
+    <city id="90" name="Bratislava" country_id="84" />
+    <city id="91" name="Brescia" country_id="49" />
+    <city id="92" name="Brest" country_id="34" />
+    <city id="93" name="Brindisi" country_id="49" />
+    <city id="94" name="Brockton" country_id="103" />
+    <city id="95" name="Bucuresti" country_id="78" />
+    <city id="96" name="Buenaventura" country_id="24" />
+    <city id="97" name="Bydgoszcz" country_id="76" />
+    <city id="98" name="Cabuyao" country_id="75" />
+    <city id="99" name="Callao" country_id="74" />
+    <city id="100" name="Cam Ranh" country_id="105" />
+    <city id="101" name="Cape Coral" country_id="103" />
+    <city id="102" name="Caracas" country_id="104" />
+    <city id="103" name="Carmen" country_id="60" />
+    <city id="104" name="Cavite" country_id="75" />
+    <city id="105" name="Cayenne" country_id="35" />
+    <city id="106" name="Celaya" country_id="60" />
+    <city id="107" name="Chandrapur" country_id="44" />
+    <city id="108" name="Changhwa" country_id="92" />
+    <city id="109" name="Changzhou" country_id="23" />
+    <city id="110" name="Chapra" country_id="44" />
+    <city id="111" name="Charlotte Amalie" country_id="106" />
+    <city id="112" name="Chatsworth" country_id="85" />
+    <city id="113" name="Cheju" country_id="86" />
+    <city id="114" name="Chiayi" country_id="92" />
+    <city id="115" name="Chisinau" country_id="61" />
+    <city id="116" name="Chungho" country_id="92" />
+    <city id="117" name="Cianjur" country_id="45" />
+    <city id="118" name="Ciomas" country_id="45" />
+    <city id="119" name="Ciparay" country_id="45" />
+    <city id="120" name="Citrus Heights" country_id="103" />
+    <city id="121" name="Citt del Vaticano" country_id="41" />
+    <city id="122" name="Ciudad del Este" country_id="73" />
+    <city id="123" name="Clarksville" country_id="103" />
+    <city id="124" name="Coacalco de Berriozbal" country_id="60" />
+    <city id="125" name="Coatzacoalcos" country_id="60" />
+    <city id="126" name="Compton" country_id="103" />
+    <city id="127" name="Coquimbo" country_id="22" />
+    <city id="128" name="Crdoba" country_id="6" />
+    <city id="129" name="Cuauhtmoc" country_id="60" />
+    <city id="130" name="Cuautla" country_id="60" />
+    <city id="131" name="Cuernavaca" country_id="60" />
+    <city id="132" name="Cuman" country_id="104" />
+    <city id="133" name="Czestochowa" country_id="76" />
+    <city id="134" name="Dadu" country_id="72" />
+    <city id="135" name="Dallas" country_id="103" />
+    <city id="136" name="Datong" country_id="23" />
+    <city id="137" name="Daugavpils" country_id="54" />
+    <city id="138" name="Davao" country_id="75" />
+    <city id="139" name="Daxian" country_id="23" />
+    <city id="140" name="Dayton" country_id="103" />
+    <city id="141" name="Deba Habe" country_id="69" />
+    <city id="142" name="Denizli" country_id="97" />
+    <city id="143" name="Dhaka" country_id="12" />
+    <city id="144" name="Dhule (Dhulia)" country_id="44" />
+    <city id="145" name="Dongying" country_id="23" />
+    <city id="146" name="Donostia-San Sebastin" country_id="87" />
+    <city id="147" name="Dos Quebradas" country_id="24" />
+    <city id="148" name="Duisburg" country_id="38" />
+    <city id="149" name="Dundee" country_id="102" />
+    <city id="150" name="Dzerzinsk" country_id="80" />
+    <city id="151" name="Ede" country_id="67" />
+    <city id="152" name="Effon-Alaiye" country_id="69" />
+    <city id="153" name="El Alto" country_id="14" />
+    <city id="154" name="El Fuerte" country_id="60" />
+    <city id="155" name="El Monte" country_id="103" />
+    <city id="156" name="Elista" country_id="80" />
+    <city id="157" name="Emeishan" country_id="23" />
+    <city id="158" name="Emmen" country_id="67" />
+    <city id="159" name="Enshi" country_id="23" />
+    <city id="160" name="Erlangen" country_id="38" />
+    <city id="161" name="Escobar" country_id="6" />
+    <city id="162" name="Esfahan" country_id="46" />
+    <city id="163" name="Eskisehir" country_id="97" />
+    <city id="164" name="Etawah" country_id="44" />
+    <city id="165" name="Ezeiza" country_id="6" />
+    <city id="166" name="Ezhou" country_id="23" />
+    <city id="167" name="Faaa" country_id="36" />
+    <city id="168" name="Fengshan" country_id="92" />
+    <city id="169" name="Firozabad" country_id="44" />
+    <city id="170" name="Florencia" country_id="24" />
+    <city id="171" name="Fontana" country_id="103" />
+    <city id="172" name="Fukuyama" country_id="50" />
+    <city id="173" name="Funafuti" country_id="99" />
+    <city id="174" name="Fuyu" country_id="23" />
+    <city id="175" name="Fuzhou" country_id="23" />
+    <city id="176" name="Gandhinagar" country_id="44" />
+    <city id="177" name="Garden Grove" country_id="103" />
+    <city id="178" name="Garland" country_id="103" />
+    <city id="179" name="Gatineau" country_id="20" />
+    <city id="180" name="Gaziantep" country_id="97" />
+    <city id="181" name="Gijn" country_id="87" />
+    <city id="182" name="Gingoog" country_id="75" />
+    <city id="183" name="Goinia" country_id="15" />
+    <city id="184" name="Gorontalo" country_id="45" />
+    <city id="185" name="Grand Prairie" country_id="103" />
+    <city id="186" name="Graz" country_id="9" />
+    <city id="187" name="Greensboro" country_id="103" />
+    <city id="188" name="Guadalajara" country_id="60" />
+    <city id="189" name="Guaruj" country_id="15" />
+    <city id="190" name="guas Lindas de Gois" country_id="15" />
+    <city id="191" name="Gulbarga" country_id="44" />
+    <city id="192" name="Hagonoy" country_id="75" />
+    <city id="193" name="Haining" country_id="23" />
+    <city id="194" name="Haiphong" country_id="105" />
+    <city id="195" name="Haldia" country_id="44" />
+    <city id="196" name="Halifax" country_id="20" />
+    <city id="197" name="Halisahar" country_id="44" />
+    <city id="198" name="Halle/ Saale" country_id="38" />
+    <city id="199" name="Hami" country_id="23" />
+    <city id="200" name="Hamilton" country_id="68" />
+    <city id="201" name="Hanoi" country_id="105" />
+    <city id="202" name="Hidalgo" country_id="60" />
+    <city id="203" name="Higashiosaka" country_id="50" />
+    <city id="204" name="Hino" country_id="50" />
+    <city id="205" name="Hiroshima" country_id="50" />
+    <city id="206" name="Hodeida" country_id="107" />
+    <city id="207" name="Hohhot" country_id="23" />
+    <city id="208" name="Hoshiarpur" country_id="44" />
+    <city id="209" name="Hsichuh" country_id="92" />
+    <city id="210" name="Huaian" country_id="23" />
+    <city id="211" name="Hubli-Dharwad" country_id="44" />
+    <city id="212" name="Huejutla de Reyes" country_id="60" />
+    <city id="213" name="Huixquilucan" country_id="60" />
+    <city id="214" name="Hunuco" country_id="74" />
+    <city id="215" name="Ibirit" country_id="15" />
+    <city id="216" name="Idfu" country_id="29" />
+    <city id="217" name="Ife" country_id="69" />
+    <city id="218" name="Ikerre" country_id="69" />
+    <city id="219" name="Iligan" country_id="75" />
+    <city id="220" name="Ilorin" country_id="69" />
+    <city id="221" name="Imus" country_id="75" />
+    <city id="222" name="Inegl" country_id="97" />
+    <city id="223" name="Ipoh" country_id="59" />
+    <city id="224" name="Isesaki" country_id="50" />
+    <city id="225" name="Ivanovo" country_id="80" />
+    <city id="226" name="Iwaki" country_id="50" />
+    <city id="227" name="Iwakuni" country_id="50" />
+    <city id="228" name="Iwatsuki" country_id="50" />
+    <city id="229" name="Izumisano" country_id="50" />
+    <city id="230" name="Jaffna" country_id="88" />
+    <city id="231" name="Jaipur" country_id="44" />
+    <city id="232" name="Jakarta" country_id="45" />
+    <city id="233" name="Jalib al-Shuyukh" country_id="53" />
+    <city id="234" name="Jamalpur" country_id="12" />
+    <city id="235" name="Jaroslavl" country_id="80" />
+    <city id="236" name="Jastrzebie-Zdrj" country_id="76" />
+    <city id="237" name="Jedda" country_id="82" />
+    <city id="238" name="Jelets" country_id="80" />
+    <city id="239" name="Jhansi" country_id="44" />
+    <city id="240" name="Jinchang" country_id="23" />
+    <city id="241" name="Jining" country_id="23" />
+    <city id="242" name="Jinzhou" country_id="23" />
+    <city id="243" name="Jodhpur" country_id="44" />
+    <city id="244" name="Johannesburg" country_id="85" />
+    <city id="245" name="Joliet" country_id="103" />
+    <city id="246" name="Jos Azueta" country_id="60" />
+    <city id="247" name="Juazeiro do Norte" country_id="15" />
+    <city id="248" name="Juiz de Fora" country_id="15" />
+    <city id="249" name="Junan" country_id="23" />
+    <city id="250" name="Jurez" country_id="60" />
+    <city id="251" name="Kabul" country_id="1" />
+    <city id="252" name="Kaduna" country_id="69" />
+    <city id="253" name="Kakamigahara" country_id="50" />
+    <city id="254" name="Kaliningrad" country_id="80" />
+    <city id="255" name="Kalisz" country_id="76" />
+    <city id="256" name="Kamakura" country_id="50" />
+    <city id="257" name="Kamarhati" country_id="44" />
+    <city id="258" name="Kamjanets-Podilskyi" country_id="100" />
+    <city id="259" name="Kamyin" country_id="80" />
+    <city id="260" name="Kanazawa" country_id="50" />
+    <city id="261" name="Kanchrapara" country_id="44" />
+    <city id="262" name="Kansas City" country_id="103" />
+    <city id="263" name="Karnal" country_id="44" />
+    <city id="264" name="Katihar" country_id="44" />
+    <city id="265" name="Kermanshah" country_id="46" />
+    <city id="266" name="Kilis" country_id="97" />
+    <city id="267" name="Kimberley" country_id="85" />
+    <city id="268" name="Kimchon" country_id="86" />
+    <city id="269" name="Kingstown" country_id="81" />
+    <city id="270" name="Kirovo-Tepetsk" country_id="80" />
+    <city id="271" name="Kisumu" country_id="52" />
+    <city id="272" name="Kitwe" country_id="109" />
+    <city id="273" name="Klerksdorp" country_id="85" />
+    <city id="274" name="Kolpino" country_id="80" />
+    <city id="275" name="Konotop" country_id="100" />
+    <city id="276" name="Koriyama" country_id="50" />
+    <city id="277" name="Korla" country_id="23" />
+    <city id="278" name="Korolev" country_id="80" />
+    <city id="279" name="Kowloon and New Kowloon" country_id="42" />
+    <city id="280" name="Kragujevac" country_id="108" />
+    <city id="281" name="Ktahya" country_id="97" />
+    <city id="282" name="Kuching" country_id="59" />
+    <city id="283" name="Kumbakonam" country_id="44" />
+    <city id="284" name="Kurashiki" country_id="50" />
+    <city id="285" name="Kurgan" country_id="80" />
+    <city id="286" name="Kursk" country_id="80" />
+    <city id="287" name="Kuwana" country_id="50" />
+    <city id="288" name="La Paz" country_id="60" />
+    <city id="289" name="La Plata" country_id="6" />
+    <city id="290" name="La Romana" country_id="27" />
+    <city id="291" name="Laiwu" country_id="23" />
+    <city id="292" name="Lancaster" country_id="103" />
+    <city id="293" name="Laohekou" country_id="23" />
+    <city id="294" name="Lapu-Lapu" country_id="75" />
+    <city id="295" name="Laredo" country_id="103" />
+    <city id="296" name="Lausanne" country_id="91" />
+    <city id="297" name="Le Mans" country_id="34" />
+    <city id="298" name="Lengshuijiang" country_id="23" />
+    <city id="299" name="Leshan" country_id="23" />
+    <city id="300" name="Lethbridge" country_id="20" />
+    <city id="301" name="Lhokseumawe" country_id="45" />
+    <city id="302" name="Liaocheng" country_id="23" />
+    <city id="303" name="Liepaja" country_id="54" />
+    <city id="304" name="Lilongwe" country_id="58" />
+    <city id="305" name="Lima" country_id="74" />
+    <city id="306" name="Lincoln" country_id="103" />
+    <city id="307" name="Linz" country_id="9" />
+    <city id="308" name="Lipetsk" country_id="80" />
+    <city id="309" name="Livorno" country_id="49" />
+    <city id="310" name="Ljubertsy" country_id="80" />
+    <city id="311" name="Loja" country_id="28" />
+    <city id="312" name="London" country_id="102" />
+    <city id="313" name="London" country_id="20" />
+    <city id="314" name="Lublin" country_id="76" />
+    <city id="315" name="Lubumbashi" country_id="25" />
+    <city id="316" name="Lungtan" country_id="92" />
+    <city id="317" name="Luzinia" country_id="15" />
+    <city id="318" name="Madiun" country_id="45" />
+    <city id="319" name="Mahajanga" country_id="57" />
+    <city id="320" name="Maikop" country_id="80" />
+    <city id="321" name="Malm" country_id="90" />
+    <city id="322" name="Manchester" country_id="103" />
+    <city id="323" name="Mandaluyong" country_id="75" />
+    <city id="324" name="Mandi Bahauddin" country_id="72" />
+    <city id="325" name="Mannheim" country_id="38" />
+    <city id="326" name="Maracabo" country_id="104" />
+    <city id="327" name="Mardan" country_id="72" />
+    <city id="328" name="Maring" country_id="15" />
+    <city id="329" name="Masqat" country_id="71" />
+    <city id="330" name="Matamoros" country_id="60" />
+    <city id="331" name="Matsue" country_id="50" />
+    <city id="332" name="Meixian" country_id="23" />
+    <city id="333" name="Memphis" country_id="103" />
+    <city id="334" name="Merlo" country_id="6" />
+    <city id="335" name="Mexicali" country_id="60" />
+    <city id="336" name="Miraj" country_id="44" />
+    <city id="337" name="Mit Ghamr" country_id="29" />
+    <city id="338" name="Miyakonojo" country_id="50" />
+    <city id="339" name="Mogiljov" country_id="13" />
+    <city id="340" name="Molodetno" country_id="13" />
+    <city id="341" name="Monclova" country_id="60" />
+    <city id="342" name="Monywa" country_id="64" />
+    <city id="343" name="Moscow" country_id="80" />
+    <city id="344" name="Mosul" country_id="47" />
+    <city id="345" name="Mukateve" country_id="100" />
+    <city id="346" name="Munger (Monghyr)" country_id="44" />
+    <city id="347" name="Mwanza" country_id="93" />
+    <city id="348" name="Mwene-Ditu" country_id="25" />
+    <city id="349" name="Myingyan" country_id="64" />
+    <city id="350" name="Mysore" country_id="44" />
+    <city id="351" name="Naala-Porto" country_id="63" />
+    <city id="352" name="Nabereznyje Telny" country_id="80" />
+    <city id="353" name="Nador" country_id="62" />
+    <city id="354" name="Nagaon" country_id="44" />
+    <city id="355" name="Nagareyama" country_id="50" />
+    <city id="356" name="Najafabad" country_id="46" />
+    <city id="357" name="Naju" country_id="86" />
+    <city id="358" name="Nakhon Sawan" country_id="94" />
+    <city id="359" name="Nam Dinh" country_id="105" />
+    <city id="360" name="Namibe" country_id="4" />
+    <city id="361" name="Nantou" country_id="92" />
+    <city id="362" name="Nanyang" country_id="23" />
+    <city id="363" name="NDjamna" country_id="21" />
+    <city id="364" name="Newcastle" country_id="85" />
+    <city id="365" name="Nezahualcyotl" country_id="60" />
+    <city id="366" name="Nha Trang" country_id="105" />
+    <city id="367" name="Niznekamsk" country_id="80" />
+    <city id="368" name="Novi Sad" country_id="108" />
+    <city id="369" name="Novoterkassk" country_id="80" />
+    <city id="370" name="Nukualofa" country_id="95" />
+    <city id="371" name="Nuuk" country_id="40" />
+    <city id="372" name="Nyeri" country_id="52" />
+    <city id="373" name="Ocumare del Tuy" country_id="104" />
+    <city id="374" name="Ogbomosho" country_id="69" />
+    <city id="375" name="Okara" country_id="72" />
+    <city id="376" name="Okayama" country_id="50" />
+    <city id="377" name="Okinawa" country_id="50" />
+    <city id="378" name="Olomouc" country_id="26" />
+    <city id="379" name="Omdurman" country_id="89" />
+    <city id="380" name="Omiya" country_id="50" />
+    <city id="381" name="Ondo" country_id="69" />
+    <city id="382" name="Onomichi" country_id="50" />
+    <city id="383" name="Oshawa" country_id="20" />
+    <city id="384" name="Osmaniye" country_id="97" />
+    <city id="385" name="ostka" country_id="100" />
+    <city id="386" name="Otsu" country_id="50" />
+    <city id="387" name="Oulu" country_id="33" />
+    <city id="388" name="Ourense (Orense)" country_id="87" />
+    <city id="389" name="Owo" country_id="69" />
+    <city id="390" name="Oyo" country_id="69" />
+    <city id="391" name="Ozamis" country_id="75" />
+    <city id="392" name="Paarl" country_id="85" />
+    <city id="393" name="Pachuca de Soto" country_id="60" />
+    <city id="394" name="Pak Kret" country_id="94" />
+    <city id="395" name="Palghat (Palakkad)" country_id="44" />
+    <city id="396" name="Pangkal Pinang" country_id="45" />
+    <city id="397" name="Papeete" country_id="36" />
+    <city id="398" name="Parbhani" country_id="44" />
+    <city id="399" name="Pathankot" country_id="44" />
+    <city id="400" name="Patiala" country_id="44" />
+    <city id="401" name="Patras" country_id="39" />
+    <city id="402" name="Pavlodar" country_id="51" />
+    <city id="403" name="Pemalang" country_id="45" />
+    <city id="404" name="Peoria" country_id="103" />
+    <city id="405" name="Pereira" country_id="24" />
+    <city id="406" name="Phnom Penh" country_id="18" />
+    <city id="407" name="Pingxiang" country_id="23" />
+    <city id="408" name="Pjatigorsk" country_id="80" />
+    <city id="409" name="Plock" country_id="76" />
+    <city id="410" name="Po" country_id="15" />
+    <city id="411" name="Ponce" country_id="77" />
+    <city id="412" name="Pontianak" country_id="45" />
+    <city id="413" name="Poos de Caldas" country_id="15" />
+    <city id="414" name="Portoviejo" country_id="28" />
+    <city id="415" name="Probolinggo" country_id="45" />
+    <city id="416" name="Pudukkottai" country_id="44" />
+    <city id="417" name="Pune" country_id="44" />
+    <city id="418" name="Purnea (Purnia)" country_id="44" />
+    <city id="419" name="Purwakarta" country_id="45" />
+    <city id="420" name="Pyongyang" country_id="70" />
+    <city id="421" name="Qalyub" country_id="29" />
+    <city id="422" name="Qinhuangdao" country_id="23" />
+    <city id="423" name="Qomsheh" country_id="46" />
+    <city id="424" name="Quilmes" country_id="6" />
+    <city id="425" name="Rae Bareli" country_id="44" />
+    <city id="426" name="Rajkot" country_id="44" />
+    <city id="427" name="Rampur" country_id="44" />
+    <city id="428" name="Rancagua" country_id="22" />
+    <city id="429" name="Ranchi" country_id="44" />
+    <city id="430" name="Richmond Hill" country_id="20" />
+    <city id="431" name="Rio Claro" country_id="15" />
+    <city id="432" name="Rizhao" country_id="23" />
+    <city id="433" name="Roanoke" country_id="103" />
+    <city id="434" name="Robamba" country_id="28" />
+    <city id="435" name="Rockford" country_id="103" />
+    <city id="436" name="Ruse" country_id="17" />
+    <city id="437" name="Rustenburg" country_id="85" />
+    <city id="438" name="s-Hertogenbosch" country_id="67" />
+    <city id="439" name="Saarbrcken" country_id="38" />
+    <city id="440" name="Sagamihara" country_id="50" />
+    <city id="441" name="Saint Louis" country_id="103" />
+    <city id="442" name="Saint-Denis" country_id="79" />
+    <city id="443" name="Sal" country_id="62" />
+    <city id="444" name="Salala" country_id="71" />
+    <city id="445" name="Salamanca" country_id="60" />
+    <city id="446" name="Salinas" country_id="103" />
+    <city id="447" name="Salzburg" country_id="9" />
+    <city id="448" name="Sambhal" country_id="44" />
+    <city id="449" name="San Bernardino" country_id="103" />
+    <city id="450" name="San Felipe de Puerto Plata" country_id="27" />
+    <city id="451" name="San Felipe del Progreso" country_id="60" />
+    <city id="452" name="San Juan Bautista Tuxtepec" country_id="60" />
+    <city id="453" name="San Lorenzo" country_id="73" />
+    <city id="454" name="San Miguel de Tucumn" country_id="6" />
+    <city id="455" name="Sanaa" country_id="107" />
+    <city id="456" name="Santa Brbara dOeste" country_id="15" />
+    <city id="457" name="Santa F" country_id="6" />
+    <city id="458" name="Santa Rosa" country_id="75" />
+    <city id="459" name="Santiago de Compostela" country_id="87" />
+    <city id="460" name="Santiago de los Caballeros" country_id="27" />
+    <city id="461" name="Santo Andr" country_id="15" />
+    <city id="462" name="Sanya" country_id="23" />
+    <city id="463" name="Sasebo" country_id="50" />
+    <city id="464" name="Satna" country_id="44" />
+    <city id="465" name="Sawhaj" country_id="29" />
+    <city id="466" name="Serpuhov" country_id="80" />
+    <city id="467" name="Shahr-e Kord" country_id="46" />
+    <city id="468" name="Shanwei" country_id="23" />
+    <city id="469" name="Shaoguan" country_id="23" />
+    <city id="470" name="Sharja" country_id="101" />
+    <city id="471" name="Shenzhen" country_id="23" />
+    <city id="472" name="Shikarpur" country_id="72" />
+    <city id="473" name="Shimoga" country_id="44" />
+    <city id="474" name="Shimonoseki" country_id="50" />
+    <city id="475" name="Shivapuri" country_id="44" />
+    <city id="476" name="Shubra al-Khayma" country_id="29" />
+    <city id="477" name="Siegen" country_id="38" />
+    <city id="478" name="Siliguri (Shiliguri)" country_id="44" />
+    <city id="479" name="Simferopol" country_id="100" />
+    <city id="480" name="Sincelejo" country_id="24" />
+    <city id="481" name="Sirjan" country_id="46" />
+    <city id="482" name="Sivas" country_id="97" />
+    <city id="483" name="Skikda" country_id="2" />
+    <city id="484" name="Smolensk" country_id="80" />
+    <city id="485" name="So Bernardo do Campo" country_id="15" />
+    <city id="486" name="So Leopoldo" country_id="15" />
+    <city id="487" name="Sogamoso" country_id="24" />
+    <city id="488" name="Sokoto" country_id="69" />
+    <city id="489" name="Songkhla" country_id="94" />
+    <city id="490" name="Sorocaba" country_id="15" />
+    <city id="491" name="Soshanguve" country_id="85" />
+    <city id="492" name="Sousse" country_id="96" />
+    <city id="493" name="South Hill" country_id="5" />
+    <city id="494" name="Southampton" country_id="102" />
+    <city id="495" name="Southend-on-Sea" country_id="102" />
+    <city id="496" name="Southport" country_id="102" />
+    <city id="497" name="Springs" country_id="85" />
+    <city id="498" name="Stara Zagora" country_id="17" />
+    <city id="499" name="Sterling Heights" country_id="103" />
+    <city id="500" name="Stockport" country_id="102" />
+    <city id="501" name="Sucre" country_id="14" />
+    <city id="502" name="Suihua" country_id="23" />
+    <city id="503" name="Sullana" country_id="74" />
+    <city id="504" name="Sultanbeyli" country_id="97" />
+    <city id="505" name="Sumqayit" country_id="10" />
+    <city id="506" name="Sumy" country_id="100" />
+    <city id="507" name="Sungai Petani" country_id="59" />
+    <city id="508" name="Sunnyvale" country_id="103" />
+    <city id="509" name="Surakarta" country_id="45" />
+    <city id="510" name="Syktyvkar" country_id="80" />
+    <city id="511" name="Syrakusa" country_id="49" />
+    <city id="512" name="Szkesfehrvr" country_id="43" />
+    <city id="513" name="Tabora" country_id="93" />
+    <city id="514" name="Tabriz" country_id="46" />
+    <city id="515" name="Tabuk" country_id="82" />
+    <city id="516" name="Tafuna" country_id="3" />
+    <city id="517" name="Taguig" country_id="75" />
+    <city id="518" name="Taizz" country_id="107" />
+    <city id="519" name="Talavera" country_id="75" />
+    <city id="520" name="Tallahassee" country_id="103" />
+    <city id="521" name="Tama" country_id="50" />
+    <city id="522" name="Tambaram" country_id="44" />
+    <city id="523" name="Tanauan" country_id="75" />
+    <city id="524" name="Tandil" country_id="6" />
+    <city id="525" name="Tangail" country_id="12" />
+    <city id="526" name="Tanshui" country_id="92" />
+    <city id="527" name="Tanza" country_id="75" />
+    <city id="528" name="Tarlac" country_id="75" />
+    <city id="529" name="Tarsus" country_id="97" />
+    <city id="530" name="Tartu" country_id="30" />
+    <city id="531" name="Teboksary" country_id="80" />
+    <city id="532" name="Tegal" country_id="45" />
+    <city id="533" name="Tel Aviv-Jaffa" country_id="48" />
+    <city id="534" name="Tete" country_id="63" />
+    <city id="535" name="Tianjin" country_id="23" />
+    <city id="536" name="Tiefa" country_id="23" />
+    <city id="537" name="Tieli" country_id="23" />
+    <city id="538" name="Tokat" country_id="97" />
+    <city id="539" name="Tonghae" country_id="86" />
+    <city id="540" name="Tongliao" country_id="23" />
+    <city id="541" name="Torren" country_id="60" />
+    <city id="542" name="Touliu" country_id="92" />
+    <city id="543" name="Toulon" country_id="34" />
+    <city id="544" name="Toulouse" country_id="34" />
+    <city id="545" name="Trshavn" country_id="32" />
+    <city id="546" name="Tsaotun" country_id="92" />
+    <city id="547" name="Tsuyama" country_id="50" />
+    <city id="548" name="Tuguegarao" country_id="75" />
+    <city id="549" name="Tychy" country_id="76" />
+    <city id="550" name="Udaipur" country_id="44" />
+    <city id="551" name="Udine" country_id="49" />
+    <city id="552" name="Ueda" country_id="50" />
+    <city id="553" name="Uijongbu" country_id="86" />
+    <city id="554" name="Uluberia" country_id="44" />
+    <city id="555" name="Urawa" country_id="50" />
+    <city id="556" name="Uruapan" country_id="60" />
+    <city id="557" name="Usak" country_id="97" />
+    <city id="558" name="Usolje-Sibirskoje" country_id="80" />
+    <city id="559" name="Uttarpara-Kotrung" country_id="44" />
+    <city id="560" name="Vaduz" country_id="55" />
+    <city id="561" name="Valencia" country_id="104" />
+    <city id="562" name="Valle de la Pascua" country_id="104" />
+    <city id="563" name="Valle de Santiago" country_id="60" />
+    <city id="564" name="Valparai" country_id="44" />
+    <city id="565" name="Vancouver" country_id="20" />
+    <city id="566" name="Varanasi (Benares)" country_id="44" />
+    <city id="567" name="Vicente Lpez" country_id="6" />
+    <city id="568" name="Vijayawada" country_id="44" />
+    <city id="569" name="Vila Velha" country_id="15" />
+    <city id="570" name="Vilnius" country_id="56" />
+    <city id="571" name="Vinh" country_id="105" />
+    <city id="572" name="Vitria de Santo Anto" country_id="15" />
+    <city id="573" name="Warren" country_id="103" />
+    <city id="574" name="Weifang" country_id="23" />
+    <city id="575" name="Witten" country_id="38" />
+    <city id="576" name="Woodridge" country_id="8" />
+    <city id="577" name="Wroclaw" country_id="76" />
+    <city id="578" name="Xiangfan" country_id="23" />
+    <city id="579" name="Xiangtan" country_id="23" />
+    <city id="580" name="Xintai" country_id="23" />
+    <city id="581" name="Xinxiang" country_id="23" />
+    <city id="582" name="Yamuna Nagar" country_id="44" />
+    <city id="583" name="Yangor" country_id="65" />
+    <city id="584" name="Yantai" country_id="23" />
+    <city id="585" name="Yaound" country_id="19" />
+    <city id="586" name="Yerevan" country_id="7" />
+    <city id="587" name="Yinchuan" country_id="23" />
+    <city id="588" name="Yingkou" country_id="23" />
+    <city id="589" name="York" country_id="102" />
+    <city id="590" name="Yuncheng" country_id="23" />
+    <city id="591" name="Yuzhou" country_id="23" />
+    <city id="592" name="Zalantun" country_id="23" />
+    <city id="593" name="Zanzibar" country_id="93" />
+    <city id="594" name="Zaoyang" country_id="23" />
+    <city id="595" name="Zapopan" country_id="60" />
+    <city id="596" name="Zaria" country_id="69" />
+    <city id="597" name="Zeleznogorsk" country_id="80" />
+    <city id="598" name="Zhezqazghan" country_id="51" />
+    <city id="599" name="Zhoushan" country_id="23" />
+    <city id="600" name="Ziguinchor" country_id="83" />
+</cities>

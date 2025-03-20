@@ -1,4 +1,4 @@
-package com.jabx.bibliography;
+package com.simulado.jabx;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
@@ -10,34 +10,34 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 import java.io.File;
 import java.util.List;
 
-@XmlRootElement(name = "bibliography")
+@XmlRootElement(name = "addresses")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Bibliography {
+public class Addresses {
 
-    private List<Book> book;
+    private List<Address> address;
 
-    public Bibliography() {
+    public Addresses() {
     }
 
-    public List<Book> getBook() {
-        return book;
+    public List<Address> getAddress() {
+        return address;
     }
 
-    public void setBook(List<Book> book) {
-        this.book = book;
+    public void setAddress(List<Address> address) {
+        this.address = address;
     }
 
     @Override
     public String toString() {
-        return "Bibliography{" +
-                "book=" + book +
+        return "Addresses{" +
+                "address=" + address +
                 '}';
     }
 
     public static void main(String[] args) throws JAXBException {
-        JAXBContext context = JAXBContext.newInstance(Bibliography.class);
+        JAXBContext context = JAXBContext.newInstance(Addresses.class);
         Unmarshaller um = context.createUnmarshaller();
-        Bibliography b = (Bibliography) um.unmarshal(new File("src/main/bibliography.xml"));
-        System.out.println(b);
+        Addresses a = (Addresses) um.unmarshal(new File("src/main/address.xml"));
+        System.out.println(a);
     }
 }
